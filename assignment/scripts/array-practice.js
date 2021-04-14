@@ -58,7 +58,9 @@ console.log('The animals are now', animalArray);
 
 // 4.b. TODO: Remove the food at the end of your array &
 //      log both the food removed and the updated array
-
+let ickyPear = favoriteFoods.pop();
+console.log( 'Just ate a really icky pear, no more', ickyPear );
+console.log( 'My new list of fave foods are:', favoriteFoods );
 
 // Example: Add an animal to the beginning using Array.unshift
 animalArray.unshift('walrus');
