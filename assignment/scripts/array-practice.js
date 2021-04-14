@@ -48,8 +48,8 @@ animalArray.push('penguin');
 console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
-
-
+favoriteFoods.push( 'pears' );
+console.log( 'Ate a juicy pear, I think pears are one of my favorite foods!', favoriteFoods );
 
 // Example: Remove the last animal by using Array.pop
 let removedAnimal = animalArray.pop();
