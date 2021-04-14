@@ -77,3 +77,6 @@ console.log('The animals are now', animalArray);
 
 // 4.d TODO: Remove the food at the beginning of your array &
 //     log both the food removed and the updated array
+let glutenIntolerant = favoriteFoods.shift();
+console.log( 'Doctor told me that I am intolerant to gluten, no more', glutenIntolerant );
+console.log( 'My fave foods are really:', favoriteFoods );
